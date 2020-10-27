@@ -14,6 +14,28 @@ public BankAccount (int accountnum, String pass){
  balance = 0;
 
 }
+public String toString() {
+  return accountID + "\t" + balance;
+
+
+}
+
+public double getBalance(){
+  return balance;
+
+}
+
+public int getAccountID(){
+  return accountID;
+
+}
+
+public void setPassword(String newPass){
+  password = newPass;
+
+}
+
+
 
 
 
